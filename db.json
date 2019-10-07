@@ -1,46 +1,29 @@
-{
-  "seo": {
-    "title":"luuna",
-    "description":"luuna description",
-    "keywords":"colchon luuna one sabanas",
-    "canonical": "luuna.mx",
-    "openGraph": {
-      "site_name":"luuna",
-      "title": "luuna",
-      "description": "pagina de luuna",
-      "type":"website",
-      "images": [{
-        "url":"",
-        "width": 100,
-        "height": 100,
-        "alt": ""
-      }],
-      "url":"https://luuna.mx/"
-    },
-    "twitter":{
-      "handle":"@luunasmx",
-      "site":"@luunasmx",
-      "cardType":"summary"
-    }
-  },
-  "markup": {
-    "product": {
-      "productName":"Colchon Luuna One",
-      "images":[
-      "https://example.com/photos/1x1/photo.jpg"
-      ],
-      "description":"Esta es la description de google",
-      "brand":"Luuna colchon",
-      "reviews":{
-        "author":"beto",
-        "datePublished":"2019-05-25",
-        "reviewBody": "Gran colchon",
-        "reviewRating":{
-          "bestRating":"5",
-          "ratingValue":"4.7",
-          "worstRating":"4"
+[
+    {
+      "addressId": 190,
+      "carriers": [
+        {
+          "id": 10,
+          "provider": "on_fleet",
+          "detail": "Luuna Fleet",
+          "deliveryType": "day_time_slots",
+          "items": [
+            {
+              "id": 7,
+              "sku": "LU1005",
+              "name": "Colchón California King",
+              "image": "/products/colchon-1-large.png",
+              "quantity": 5
+            },
+            {
+              "id": 6,
+              "sku": "LU1002",
+              "name": "Colchón California King",
+              "image": "/products/colchon-1-large.png",
+              "quantity": 5
+            }
+          ]
         }
-      }
+      ]
     }
-  }
-}
+  ]
